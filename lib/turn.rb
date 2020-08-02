@@ -43,5 +43,6 @@ def turn(board)
     move(board, index)
   else
     "Plese try again"
+    input = gets.strip
   end
 end
