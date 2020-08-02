@@ -45,4 +45,5 @@ def turn(board)
     "Plese try again"
     input = gets.strip
   end
+  display_board
 end
